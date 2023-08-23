@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.hero {
+  min-height: 100vh;
+  background-color: #081b29;
+  color: #ededed;
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+header .container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 31%;
+}
+.logo h1 {
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 25px;
+  color: #ededed;
+}
+.navbar {
+  height: 100%;
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar li {
+  font-size: 18px;
+  text-transform: uppercase;
+  height: 60%;
+  padding: 0 1rem;
+}
+.navbar li a {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 10px 25px;
+  margin: 0 2px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all ease-in-out 0.5s;
+}
+.navbar li a:hover {
+  background: #00abf0;
+  color: white;
+  font-size: 22px;
+}
+.title {
+  background: #081b29;
+  width: 100%;
+  padding: 20px 0;
+}
+.title h2 {
+  color: white;
+  font-size: 70px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 480px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.icons {
+  font-size: 50px;
+  text-align: center;
+  margin: 25px 0px;
+  color: white;
+}
+h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button {
+  background-color: #081b29;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid #081b29;
+  cursor: pointer;
+}
